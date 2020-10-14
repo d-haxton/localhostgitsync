@@ -123,7 +123,7 @@ appTemplate:
                 - data: |-
                     [{
                       "id": 1,
-                      "name": "Hanson Deck",
+                      "name": "Hanson Dick",
                       "email": "hanson@deck.com",
                       "sales": 37
                     }, {
