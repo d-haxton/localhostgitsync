@@ -71,6 +71,29 @@ appTemplate:
                 - notificationDuration: ''
             createdAt: 2020-10-15T20:35:37.207Z
             updatedAt: 2020-10-15T20:35:37.207Z
+      - tabbedcontainer1:
+          pluginTemplate:
+            id: tabbedcontainer1
+            type: widget
+            subtype: TabbedContainerWidget
+            template:
+              ordered:
+                - disabled: ''
+                - selectedTab: '"0"'
+                - selectedTabIndex: 0
+                - showTabBar: true
+                - tabNames: '["Tab One", "Tab Two"]'
+                - spinWhenChildrenAreFetching: true
+                - disableAnimation: false
+                - id: tabbedcontainer1
+            position2:
+              position2:
+                row: 4
+                col: 4
+                height: 8
+                width: 6
+            createdAt: 2020-10-15T20:35:38.726Z
+            updatedAt: 2020-10-15T20:35:38.726Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
