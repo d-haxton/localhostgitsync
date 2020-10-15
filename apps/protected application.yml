@@ -219,7 +219,7 @@ appTemplate:
             position2:
               position2:
                 row: 4
-                col: 1
+                col: 3
                 height: 8
                 width: 8
             createdAt: 2020-10-14T19:04:51.268Z
