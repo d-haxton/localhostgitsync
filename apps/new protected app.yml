@@ -88,8 +88,8 @@ appTemplate:
                 - id: tabbedcontainer1
             position2:
               position2:
-                row: 4
-                col: 4
+                row: 3
+                col: 2
                 height: 8
                 width: 6
             createdAt: 2020-10-15T20:35:38.726Z
