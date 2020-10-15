@@ -12,88 +12,24 @@ appTemplate:
             template:
               ordered:
                 - queryRefreshTime: ''
-                - paginationLimit: ''
-                - body: ''
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
-                - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - paginationPaginationField: ''
-                - headers: ''
-                - paginationEnabled: false
                 - query: ''
-                - playgroundQueryUuid: ''
-                - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
-                - runWhenPageLoadsDelay: ''
                 - data: null
-                - importedQueryInputs:
-                    ordered: []
-                - showSuccessConfetti: false
-                - isImported: false
                 - showSuccessToaster: true
-                - cacheKeyTtl: ''
-                - cookies: ''
-                - metadata: null
                 - triggersOnFailure: []
-                - errorTransformer: |-
-                    // type your code here
-                    // example: return data.find(element => element.isError)
-                    return data.error
                 - confirmationMessage: null
-                - isFetching: false
-                - rawData: null
-                - queryTriggerDelay: '0'
                 - watchedParams: []
-                - enableErrorTransformer: false
-                - paginationDataField: ''
                 - timestamp: 0
-                - importedQueryDefaults:
-                    ordered: []
-                - enableTransformer: false
                 - runWhenPageLoads: false
-                - transformer: >-
-                    // type your code here
-
-                    // example: return formatDataAsArray(data).filter(row =>
-                    row.quantity > 20)
-
-                    return data
                 - queryTimeout: '10001'
                 - requireConfirmation: false
-                - type: GET
-                - enableCaching: false
-                - bodyType: json
                 - queryThrottleTime: '750'
-                - notificationDuration: ''
-            createdAt: 2020-10-15T20:35:37.207Z
-            updatedAt: 2020-10-15T20:35:37.207Z
-      - tabbedcontainer1:
-          pluginTemplate:
-            id: tabbedcontainer1
-            type: widget
-            subtype: TabbedContainerWidget
-            template:
-              ordered:
-                - disabled: ''
-                - selectedTab: '"0"'
-                - selectedTabIndex: 0
-                - showTabBar: true
-                - tabNames: '["Tab One", "Tab Two"]'
-                - spinWhenChildrenAreFetching: true
-                - disableAnimation: false
-                - id: tabbedcontainer1
-            position2:
-              position2:
-                row: 3
-                col: 2
-                height: 8
-                width: 6
-            createdAt: 2020-10-15T20:35:38.726Z
-            updatedAt: 2020-10-15T20:35:38.726Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
@@ -101,6 +37,6 @@ appTemplate:
   isFetching: false
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.64.21
+  version: null
   responsiveLayoutDisabled: false
   createdAt: null
