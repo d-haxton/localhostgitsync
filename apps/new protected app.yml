@@ -114,12 +114,12 @@ appTemplate:
                 - id: text1
             position2:
               position2:
-                row: 1
+                row: 2
                 col: 5
                 height: 1
                 width: 3
-            createdAt: 2020-10-15T20:37:43.107Z
-            updatedAt: 2020-10-15T20:37:55.133Z
+            createdAt: 2020-10-15T20:52:55.243Z
+            updatedAt: 2020-10-15T20:52:55.243Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
