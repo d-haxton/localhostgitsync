@@ -106,7 +106,8 @@ appTemplate:
                 - verticalAlign: center
                 - scrollOverflow: false
                 - tooltipText: ''
-                - value: "**Hello** friend! \U0001F603\n\n"
+                - value: |
+                    Updated 
                 - renderAsHtml: false
                 - backgroundColor: '#0000'
                 - textColor: '#312929'
@@ -119,7 +120,7 @@ appTemplate:
                 height: 1
                 width: 3
             createdAt: 2020-10-15T20:52:55.243Z
-            updatedAt: 2020-10-15T20:52:55.818Z
+            updatedAt: 2020-10-15T20:52:59.346Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
