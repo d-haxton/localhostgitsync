@@ -216,8 +216,7 @@ appTemplate:
                 - useCompactMode: false
             position2:
               position2:
-                row: 1
-                col: 2
+                row: 5
                 height: 8
                 width: 8
             createdAt: 2020-10-16T23:36:43.384Z
