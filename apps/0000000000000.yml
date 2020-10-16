@@ -205,14 +205,12 @@ appTemplate:
                 - dynamicColumnSettings: null
                 - totalRowCount: ''
                 - recordUpdates:
-                    ordered:
-                      - array: []
+                    array: []
                 - newRow: null
                 - columnEditable:
                     ordered: []
                 - filters:
-                    ordered:
-                      - array: []
+                    array: []
                 - displayedDataIndices: null
                 - disableSorting:
                     ordered: []
