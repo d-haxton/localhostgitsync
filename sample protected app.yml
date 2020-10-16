@@ -115,9 +115,7 @@ appTemplate:
                       - name: ''
                       - Sales: orange
                       - sales: ''
-                      - '0': ''
                       - activebool: ''
-                      - '1': ''
                       - create_date: ''
                       - last_update: ''
                       - last_name: ''
@@ -151,9 +149,7 @@ appTemplate:
                       - name: true
                       - Sales: true
                       - sales: true
-                      - '0': true
                       - activebool: true
-                      - '1': true
                       - create_date: true
                       - last_update: true
                       - last_name: true
@@ -187,7 +183,7 @@ appTemplate:
                 - columnMappersRenderAsHTML:
                     ordered: []
                 - actionButtonInternalUrlPath: ''
-                - pageSize: 7
+                - pageSize: 8
                 - useDynamicColumnSettings: false
                 - selectedColumn: null
                 - actionButtonPosition: left
@@ -251,8 +247,6 @@ appTemplate:
                     - updated_at
                     - image_url
                     - category
-                    - '0'
-                    - '1'
                 - sort: null
                 - actionButtonInternalUrlQuery: ''
                 - calculatedColumns: []
@@ -274,7 +268,7 @@ appTemplate:
                 height: 9
                 width: 12
             createdAt: 2018-08-06T18:01:25.280Z
-            updatedAt: 2020-10-16T22:12:28.086Z
+            updatedAt: 2018-09-20T08:59:14.957Z
       - toInput:
           pluginTemplate:
             id: toInput
