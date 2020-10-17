@@ -299,6 +299,44 @@ appTemplate:
                 width: 3
             createdAt: 2020-10-17T19:37:50.285Z
             updatedAt: 2020-10-17T19:37:50.970Z
+      - select1:
+          pluginTemplate:
+            id: select1
+            type: widget
+            subtype: SelectWidget
+            template:
+              ordered:
+                - enableClientSideMatching: true
+                - values: '[1,2,3]'
+                - allowOutOfRangeValues: false
+                - enableFuzzyMatching: true
+                - searchValue: ''
+                - showFetchingIndicator: true
+                - enableCaseSensitivity: false
+                - validationMessage: ''
+                - displayValue: ''
+                - tooltipText: ''
+                - value: ''
+                - maxResults: 50
+                - placeholder: ''
+                - label: Numbers
+                - labelMaxWidth: ''
+                - labelPlacedOnLeft: false
+                - validationState: ''
+                - id: select1
+                - onSelect: ''
+                - disabled: ''
+                - hideClearButton: false
+                - required: false
+                - labels: ''
+            position2:
+              position2:
+                row: 12
+                col: 3
+                height: 1
+                width: 4
+            createdAt: 2020-10-17T19:41:24.252Z
+            updatedAt: 2020-10-17T19:41:24.252Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
