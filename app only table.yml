@@ -218,7 +218,7 @@ appTemplate:
                 - useCompactMode: false
             position2:
               position2:
-                row: 2
+                row: 9
                 col: 4
                 height: 8
                 width: 8
@@ -267,7 +267,7 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                row: 1
+                row: 17
                 col: 1
                 height: 1
                 width: 4
@@ -293,7 +293,7 @@ appTemplate:
                 - id: text1
             position2:
               position2:
-                row: 4
+                row: 10
                 height: 1
                 width: 3
             createdAt: 2020-10-17T00:02:11.329Z
@@ -318,37 +318,165 @@ appTemplate:
                 - id: text2
             position2:
               position2:
-                row: 7
-                height: 1
-                width: 3
-            createdAt: 2020-10-17T00:07:58.108Z
-            updatedAt: 2020-10-17T00:07:58.675Z
-      - text3:
-          pluginTemplate:
-            id: text3
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - horizontalAlign: left
-                - truncateOverflow: false
-                - verticalAlign: center
-                - scrollOverflow: false
-                - tooltipText: ''
-                - value: "**Hello** friend! \U0001F603\n\n"
-                - renderAsHtml: false
-                - backgroundColor: '#0000'
-                - textColor: '#312929'
-                - renderAsMarkdown: true
-                - id: text3
-            position2:
-              position2:
-                row: 6
+                row: 9
                 col: 1
                 height: 1
                 width: 3
-            createdAt: 2020-10-17T00:55:23.174Z
-            updatedAt: 2020-10-17T00:55:23.758Z
+            createdAt: 2020-10-17T02:17:53.723Z
+            updatedAt: 2020-10-17T02:17:54.291Z
+      - table2:
+          pluginTemplate:
+            id: table2
+            type: widget
+            subtype: TableWidget
+            template:
+              ordered:
+                - showCustomButton: false
+                - sortMappedValue:
+                    ordered: []
+                - normalizedData: null
+                - saveChangesDisabled: ''
+                - columnWidths: []
+                - columnWidthsMobile: []
+                - hasNextAfterCursor: ''
+                - columnTypeSpecificExtras:
+                    ordered: []
+                - onRowAdded: ''
+                - columnHeaderNames:
+                    ordered: []
+                - alwaysShowPaginator: false
+                - columnColors:
+                    ordered:
+                      - id: ''
+                      - name: ''
+                      - email: ''
+                      - sales: ''
+                - allowMultiRowSelect: false
+                - columnFormats:
+                    ordered: []
+                - columnRestrictedEditing:
+                    ordered: []
+                - showFilterButton: true
+                - nextBeforeCursor: ''
+                - columnVisibility:
+                    ordered:
+                      - id: true
+                      - name: true
+                      - email: true
+                      - sales: true
+                      - Title: true
+                      - Description: true
+                      - Sales: true
+                - selectedPageIndex: '0'
+                - actionButtonColumnName: Actions
+                - filterStackType: and
+                - downloadRawData: false
+                - showFetchingIndicator: true
+                - serverPaginated: false
+                - data: |-
+                    [{
+                      "id": 1,
+                      "name": "Hanson Deck",
+                      "email": "hanson@deck.com",
+                      "sales": 37
+                    }, {
+                      "id": 2,
+                      "name": "Max Conversation",
+                      "email": "Max@conversation.com",
+                      "sales": 424
+                    }, {
+                      "id": 3,
+                      "name": "Jason Response",
+                      "email": "jason@response.com",
+                      "sales": 55
+                    }, {
+                      "id": 4,
+                      "name": "Sue Shei",
+                      "email": "sueshei@example.com",
+                      "sales": 550
+                    }, {
+                      "id": 5,
+                      "name": "Eric Widget",
+                      "email": "eric@widget.org",
+                      "sales": 243
+                    }]
+                - displayedData: null
+                - actionButtons: []
+                - actionButtonSelectsRow: true
+                - selectRowByDefault: true
+                - defaultSortByColumn: ''
+                - paginationOffset: 0
+                - columnAlignment:
+                    ordered: []
+                - sortedDesc: false
+                - customButtonName: ''
+                - columnMappersRenderAsHTML:
+                    ordered: []
+                - pageSize: 5
+                - useDynamicColumnSettings: false
+                - actionButtonPosition: left
+                - bulkUpdateAction: ''
+                - afterCursor: ''
+                - onCustomButtonPressQueryName: ''
+                - changeSet:
+                    object: {}
+                - sortedColumn: ''
+                - columnAllowOverflow:
+                    ordered: []
+                - beforeCursor: ''
+                - serverPaginationType: limitOffsetBased
+                - onRowSelect: ''
+                - showDownloadButton: true
+                - selectedIndex: ''
+                - defaultSortDescending: false
+                - dynamicColumnSettings: null
+                - totalRowCount: ''
+                - recordUpdates:
+                    ordered:
+                      - array: []
+                - newRow: null
+                - columnEditable:
+                    ordered: []
+                - id: table2
+                - filters:
+                    ordered:
+                      - array: []
+                - displayedDataIndices: null
+                - disableSorting:
+                    ordered: []
+                - columnMappers:
+                    ordered: []
+                - showClearSelection: false
+                - selectedCell:
+                    object:
+                      index: null
+                      data: null
+                      columnName: null
+                - columns:
+                    - Title
+                    - Description
+                    - Sales
+                    - id
+                    - name
+                    - email
+                    - sales
+                - sort: null
+                - calculatedColumns: []
+                - selectedRow:
+                    object:
+                      index: null
+                      data: null
+                - showPaginationOnTop: false
+                - nextAfterCursor: ''
+                - useCompactMode: false
+            position2:
+              position2:
+                row: 1
+                col: 1
+                height: 8
+                width: 8
+            createdAt: 2020-10-17T02:17:58.785Z
+            updatedAt: 2020-10-17T02:17:59.085Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
