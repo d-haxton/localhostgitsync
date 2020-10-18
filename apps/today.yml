@@ -179,13 +179,15 @@ appTemplate:
                 - dynamicColumnSettings: null
                 - totalRowCount: ''
                 - recordUpdates:
-                    array: []
+                    ordered:
+                      - array: []
                 - newRow: null
                 - columnEditable:
                     ordered: []
                 - id: table1
                 - filters:
-                    array: []
+                    ordered:
+                      - array: []
                 - displayedDataIndices: null
                 - disableSorting:
                     ordered: []
@@ -286,7 +288,7 @@ appTemplate:
                 - labels: ''
             position2:
               position2:
-                row: 11
+                row: 10
                 col: 3
                 height: 1
                 width: 4
