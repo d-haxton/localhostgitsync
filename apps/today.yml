@@ -219,7 +219,7 @@ appTemplate:
             position2:
               position2:
                 row: 2
-                col: 3
+                col: 2
                 height: 8
                 width: 8
             createdAt: 2020-10-17T19:30:45.470Z
@@ -251,7 +251,7 @@ appTemplate:
             position2:
               position2:
                 row: 2
-                col: 1
+                col: 10
                 height: 1
                 width: 2
             createdAt: 2020-10-17T19:46:53.144Z
@@ -288,7 +288,7 @@ appTemplate:
                 - labels: ''
             position2:
               position2:
-                row: 10
+                row: 11
                 col: 3
                 height: 1
                 width: 4
@@ -314,7 +314,7 @@ appTemplate:
                 - id: text1
             position2:
               position2:
-                row: 11
+                row: 12
                 col: 4
                 height: 1
                 width: 3
