@@ -248,8 +248,8 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 5
-                col: 1
+                row: 10
+                col: 3
                 height: 1
                 width: 2
             createdAt: 2020-10-17T19:46:53.144Z
