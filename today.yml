@@ -288,7 +288,7 @@ appTemplate:
                 - labels: ''
             position2:
               position2:
-                row: 11
+                row: 10
                 col: 3
                 height: 1
                 width: 4
