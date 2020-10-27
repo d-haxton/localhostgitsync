@@ -182,15 +182,13 @@ appTemplate:
                 - dynamicColumnSettings: null
                 - totalRowCount: ''
                 - recordUpdates:
-                    ordered:
-                      - array: []
+                    array: []
                 - newRow: null
                 - columnEditable:
                     ordered: []
                 - id: table1
                 - filters:
-                    ordered:
-                      - array: []
+                    array: []
                 - displayedDataIndices: null
                 - disableSorting:
                     ordered: []
@@ -323,6 +321,47 @@ appTemplate:
                 width: 2
             createdAt: 2020-10-27T20:56:55.993Z
             updatedAt: 2020-10-27T20:56:56.636Z
+      - keyvaluemap1:
+          pluginTemplate:
+            id: keyvaluemap1
+            type: widget
+            subtype: KeyValueMapWidget
+            template:
+              ordered:
+                - rowHeaderNames:
+                    ordered: []
+                - rowFormats:
+                    ordered: []
+                - valueTitle: Value
+                - data: |-
+                    {
+                      "a": 1,
+                      "b": 2,
+                      "c": 3
+                    }
+                - rowMappersRenderAsHTML:
+                    ordered: []
+                - rowVisibility:
+                    ordered:
+                      - a: true
+                      - b: true
+                      - c: true
+                - rowMappers:
+                    ordered: []
+                - rows:
+                    - a
+                    - b
+                    - c
+                - keyTitle: Key
+                - id: keyvaluemap1
+            position2:
+              position2:
+                row: 10
+                col: 9
+                height: 5
+                width: 2
+            createdAt: 2020-10-27T20:58:57.254Z
+            updatedAt: 2020-10-27T20:58:57.254Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
