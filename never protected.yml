@@ -7,56 +7,59 @@ appTemplate:
           pluginTemplate:
             id: query1
             type: datasource
-            subtype: RESTQuery
-            resourceName: '[dev] custom_auth (redirect)'
+            subtype: SqlQueryUnified
+            resourceName: '[dev] internal_retool (unified)'
             template:
               ordered:
                 - queryRefreshTime: ''
-                - paginationLimit: ''
-                - body: ''
+                - records: ''
+                - databasePasswordOverride: ''
                 - queryDisabledMessage: ''
                 - successMessage: ''
                 - queryDisabled: ''
                 - playgroundQuerySaveId: 0
                 - resourceNameOverride: ''
                 - runWhenModelUpdates: true
-                - paginationPaginationField: ''
-                - headers: ''
-                - paginationEnabled: false
-                - query: ''
+                - query: select * from users
                 - playgroundQueryUuid: ''
                 - playgroundQueryId: 0
                 - privateParams: []
                 - triggersOnSuccess: []
                 - runWhenPageLoadsDelay: ''
+                - warningCodes: []
                 - data: null
+                - recordId: ''
                 - importedQueryInputs:
                     ordered: []
                 - showSuccessConfetti: false
                 - isImported: false
                 - showSuccessToaster: true
+                - dataArray: []
                 - cacheKeyTtl: ''
-                - cookies: ''
+                - filterBy: ''
                 - metadata: null
+                - editorMode: sql
+                - actionType: ''
                 - triggersOnFailure: []
-                - errorTransformer: >-
-                    // The variable 'data' allows you to reference the request's
-                    data in the transformer. 
-
+                - shouldUseLegacySql: false
+                - errorTransformer: |-
+                    // type your code here
                     // example: return data.find(element => element.isError)
-
                     return data.error
+                - databaseNameOverride: ''
                 - confirmationMessage: null
                 - isFetching: false
+                - changeset: ''
                 - rawData: null
                 - queryTriggerDelay: '0'
                 - watchedParams: []
                 - enableErrorTransformer: false
-                - paginationDataField: ''
+                - enableBulkUpdates: false
                 - timestamp: 0
                 - importedQueryDefaults:
                     ordered: []
                 - enableTransformer: false
+                - bulkUpdatePrimaryKey: ''
                 - runWhenPageLoads: false
                 - transformer: >-
                     // type your code here
@@ -65,15 +68,17 @@ appTemplate:
                     row.quantity > 20)
 
                     return data
-                - queryTimeout: '10001'
+                - tableName: ''
+                - queryTimeout: '10000'
                 - requireConfirmation: false
-                - type: GET
                 - enableCaching: false
-                - bodyType: json
+                - databaseUsernameOverride: ''
+                - shouldEnableBatchQuerying: false
+                - doNotThrowOnNoOp: false
                 - queryThrottleTime: '750'
                 - notificationDuration: ''
             createdAt: 2020-10-20T18:33:13.873Z
-            updatedAt: 2020-10-20T18:33:13.873Z
+            updatedAt: 2020-10-24T03:36:33.155Z
       - table1:
           pluginTemplate:
             id: table1
@@ -117,6 +122,7 @@ appTemplate:
                       - Title: true
                       - Description: true
                       - Sales: true
+                      - Calculated Column 1: true
                 - selectedPageIndex: '0'
                 - actionButtonColumnName: Actions
                 - filterStackType: and
@@ -162,7 +168,7 @@ appTemplate:
                 - customButtonName: ''
                 - columnMappersRenderAsHTML:
                     ordered: []
-                - pageSize: 5
+                - pageSize: 4
                 - useDynamicColumnSettings: false
                 - actionButtonPosition: left
                 - bulkUpdateAction: ''
@@ -182,18 +188,21 @@ appTemplate:
                 - dynamicColumnSettings: null
                 - totalRowCount: ''
                 - recordUpdates:
-                    array: []
+                    ordered:
+                      - array: []
                 - newRow: null
                 - columnEditable:
                     ordered: []
                 - id: table1
                 - filters:
-                    array: []
+                    ordered:
+                      - array: []
                 - displayedDataIndices: null
                 - disableSorting:
                     ordered: []
                 - columnMappers:
-                    ordered: []
+                    ordered:
+                      - Calculated Column 1: '{{ i }}'
                 - showClearSelection: false
                 - selectedCell:
                     object:
@@ -208,8 +217,10 @@ appTemplate:
                     - name
                     - email
                     - sales
+                    - Calculated Column 1
                 - sort: null
-                - calculatedColumns: []
+                - calculatedColumns:
+                    - Calculated Column 1
                 - selectedRow:
                     object:
                       index: null
@@ -219,10 +230,167 @@ appTemplate:
                 - useCompactMode: false
             position2:
               position2:
-                height: 8
-                width: 8
+                height: 7
+                width: 12
             createdAt: 2020-10-20T18:34:59.826Z
-            updatedAt: 2020-10-20T18:35:00.042Z
+            updatedAt: 2020-10-24T06:42:31.690Z
+      - query2:
+          pluginTemplate:
+            id: query2
+            type: datasource
+            subtype: JavascriptQuery
+            resourceName: JavascriptQuery
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: false
+                - query: "for(var i = 0; i < 10; i++) { \n\tconsole.log(i);\n}\n\nvar x = formatDataAsArray(query1.data)\nreturn x.map(x => x.name)"
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: 0
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - metadata: null
+                - triggersOnFailure: []
+                - errorTransformer: |-
+                    // type your code here
+                    // example: return data.find(element => element.isError)
+                    return data.error
+                - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - enableErrorTransformer: false
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - enableCaching: false
+                - queryThrottleTime: '750'
+                - notificationDuration: ''
+            createdAt: 2020-10-24T03:35:51.307Z
+            updatedAt: 2020-10-24T07:19:00.348Z
+      - query3:
+          pluginTemplate:
+            id: query3
+            type: datasource
+            subtype: SqlTransformQuery
+            resourceName: SQL Transforms
+            template:
+              ordered:
+                - queryRefreshTime: ''
+                - queryDisabledMessage: ''
+                - successMessage: ''
+                - queryDisabled: ''
+                - playgroundQuerySaveId: 0
+                - resourceNameOverride: ''
+                - runWhenModelUpdates: true
+                - query: |-
+                    select
+                      *
+                    from
+                      {{ [{ id: 1, apples: 3 }, { id: 3, apples: 20 }] }}
+                    where
+                      apples > 5
+                - playgroundQueryUuid: ''
+                - playgroundQueryId: 0
+                - privateParams: []
+                - triggersOnSuccess: []
+                - runWhenPageLoadsDelay: ''
+                - data: null
+                - importedQueryInputs:
+                    ordered: []
+                - showSuccessConfetti: false
+                - isImported: false
+                - showSuccessToaster: true
+                - cacheKeyTtl: ''
+                - metadata: null
+                - triggersOnFailure: []
+                - errorTransformer: >-
+                    // The variable 'data' allows you to reference the request's
+                    data in the transformer. 
+
+                    // example: return data.find(element => element.isError)
+
+                    return data.error
+                - confirmationMessage: null
+                - isFetching: false
+                - rawData: null
+                - queryTriggerDelay: '0'
+                - watchedParams: []
+                - enableErrorTransformer: false
+                - timestamp: 0
+                - importedQueryDefaults:
+                    ordered: []
+                - enableTransformer: false
+                - runWhenPageLoads: false
+                - transformer: >-
+                    // type your code here
+
+                    // example: return formatDataAsArray(data).filter(row =>
+                    row.quantity > 20)
+
+                    return data
+                - queryTimeout: '10000'
+                - requireConfirmation: false
+                - enableCaching: false
+                - queryThrottleTime: '750'
+                - notificationDuration: ''
+            createdAt: 2020-10-24T06:45:25.114Z
+            updatedAt: 2020-10-24T06:46:17.975Z
+      - transformer1:
+          pluginTemplate:
+            id: transformer1
+            type: function
+            subtype: Function
+            template:
+              ordered:
+                - funcBody: >-
+                    // Tip: Make sure to separate your dependencies into a
+                    variable. 
+
+
+                    // Correct 
+
+                    // const data = {{query1.data}}
+
+                    // data.map(...)
+
+
+                    // Incorrect 
+
+                    // {{query1.data}}.map(...) 
+
+
+                    const x = {{ formatDataAsArray(query1.data )}}
+
+                    return x.map(x => x.id)
+                - value: ''
+            createdAt: 2020-10-24T07:06:36.162Z
+            updatedAt: 2020-10-24T07:15:48.715Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
