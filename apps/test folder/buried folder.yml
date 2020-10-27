@@ -245,7 +245,7 @@ appTemplate:
             position2:
               position2:
                 row: 1
-                col: 6
+                col: 4
                 height: 1
                 width: 3
             createdAt: 2020-10-27T03:31:08.532Z
