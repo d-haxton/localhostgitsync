@@ -231,6 +231,6 @@ appTemplate:
   isFetching: false
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.64.21
+  version: 2.64.31
   responsiveLayoutDisabled: false
   createdAt: null
