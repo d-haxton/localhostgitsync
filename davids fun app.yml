@@ -219,8 +219,8 @@ appTemplate:
                 - useCompactMode: false
             position2:
               position2:
-                row: 7
-                col: 4
+                row: 1
+                col: 3
                 height: 8
                 width: 8
             createdAt: 2020-10-27T20:53:49.807Z
@@ -245,8 +245,7 @@ appTemplate:
                 - id: text1
             position2:
               position2:
-                row: 6
-                col: 4
+                col: 3
                 height: 1
                 width: 3
             createdAt: 2020-10-27T20:53:52.950Z
