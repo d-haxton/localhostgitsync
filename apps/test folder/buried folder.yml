@@ -270,7 +270,6 @@ appTemplate:
                 - id: text2
             position2:
               position2:
-                row: 1
                 col: 7
                 height: 1
                 width: 3
