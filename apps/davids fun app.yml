@@ -491,7 +491,7 @@ appTemplate:
                 - id: text3
             position2:
               position2:
-                row: 11
+                row: 13
                 col: 3
                 height: 1
                 width: 3
