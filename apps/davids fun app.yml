@@ -503,7 +503,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 8
+                row: 7
                 col: 1
                 height: 1
                 width: 2
