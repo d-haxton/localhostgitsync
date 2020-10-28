@@ -317,7 +317,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 9
+                row: 10
                 col: 3
                 height: 1
                 width: 2
@@ -413,6 +413,32 @@ appTemplate:
                 width: 4
             createdAt: 2020-10-27T20:59:40.893Z
             updatedAt: 2020-10-27T20:59:40.893Z
+      - text2:
+          pluginTemplate:
+            id: text2
+            type: widget
+            subtype: TextWidget
+            template:
+              ordered:
+                - horizontalAlign: left
+                - truncateOverflow: false
+                - verticalAlign: center
+                - scrollOverflow: false
+                - tooltipText: ''
+                - value: "**Hello** friend! \U0001F603\n\n"
+                - renderAsHtml: false
+                - backgroundColor: '#0000'
+                - textColor: '#312929'
+                - renderAsMarkdown: true
+                - id: text2
+            position2:
+              position2:
+                row: 11
+                col: 4
+                height: 1
+                width: 3
+            createdAt: 2020-10-28T23:03:19.212Z
+            updatedAt: 2020-10-28T23:03:19.913Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
@@ -420,6 +446,6 @@ appTemplate:
   isFetching: false
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.64.31
+  version: 2.64.32
   responsiveLayoutDisabled: false
   createdAt: null
