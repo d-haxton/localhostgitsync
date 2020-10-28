@@ -433,7 +433,7 @@ appTemplate:
                 - id: text2
             position2:
               position2:
-                row: 11
+                row: 13
                 col: 6
                 height: 1
                 width: 3
