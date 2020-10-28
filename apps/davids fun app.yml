@@ -317,7 +317,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 10
+                row: 9
                 col: 3
                 height: 1
                 width: 2
@@ -433,12 +433,12 @@ appTemplate:
                 - id: text2
             position2:
               position2:
-                row: 11
-                col: 4
+                row: 10
+                col: 2
                 height: 1
                 width: 3
-            createdAt: 2020-10-28T23:03:19.212Z
-            updatedAt: 2020-10-28T23:03:19.913Z
+            createdAt: 2020-10-28T23:06:59.346Z
+            updatedAt: 2020-10-28T23:06:59.980Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
