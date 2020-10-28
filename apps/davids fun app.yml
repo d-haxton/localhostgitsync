@@ -317,7 +317,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 11
+                row: 9
                 col: 3
                 height: 1
                 width: 2
@@ -465,8 +465,8 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 12
-                col: 4
+                row: 9
+                col: 1
                 height: 1
                 width: 2
             createdAt: 2020-10-28T23:14:24.508Z
