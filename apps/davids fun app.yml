@@ -445,6 +445,38 @@ appTemplate:
                 width: 2
             createdAt: 2020-10-28T23:31:51.344Z
             updatedAt: 2020-10-28T23:31:51.981Z
+      - button3:
+          pluginTemplate:
+            id: button3
+            type: widget
+            subtype: ButtonWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - color: '#3c92dc'
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - value: Submit
+                - exportQuery: ''
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - id: button3
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                row: 9
+                col: 1
+                height: 1
+                width: 2
+            createdAt: 2020-10-28T23:32:10.830Z
+            updatedAt: 2020-10-28T23:32:11.488Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
