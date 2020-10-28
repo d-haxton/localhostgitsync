@@ -317,7 +317,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 10
+                row: 11
                 col: 3
                 height: 1
                 width: 2
