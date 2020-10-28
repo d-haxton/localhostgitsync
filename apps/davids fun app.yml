@@ -318,7 +318,7 @@ appTemplate:
             position2:
               position2:
                 row: 9
-                col: 2
+                col: 3
                 height: 1
                 width: 2
             createdAt: 2020-10-27T20:56:55.993Z
@@ -413,109 +413,38 @@ appTemplate:
                 width: 4
             createdAt: 2020-10-27T20:59:40.893Z
             updatedAt: 2020-10-27T20:59:40.893Z
-      - text2:
+      - button2:
           pluginTemplate:
-            id: text2
+            id: button2
             type: widget
-            subtype: TextWidget
+            subtype: ButtonWidget
             template:
               ordered:
-                - horizontalAlign: left
-                - truncateOverflow: false
-                - verticalAlign: center
-                - scrollOverflow: false
-                - tooltipText: ''
-                - value: "**Hello** friend! \U0001F603\n\n"
-                - renderAsHtml: false
-                - backgroundColor: '#0000'
-                - textColor: '#312929'
-                - renderAsMarkdown: true
-                - id: text2
-            position2:
-              position2:
-                row: 11
-                col: 5
-                height: 1
-                width: 3
-            createdAt: 2020-10-28T23:24:27.653Z
-            updatedAt: 2020-10-28T23:24:28.291Z
-      - text3:
-          pluginTemplate:
-            id: text3
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - horizontalAlign: left
-                - truncateOverflow: false
-                - verticalAlign: center
-                - scrollOverflow: false
-                - tooltipText: ''
-                - value: "**Hello** friend! \U0001F603\n\n"
-                - renderAsHtml: false
-                - backgroundColor: '#0000'
-                - textColor: '#312929'
-                - renderAsMarkdown: true
-                - id: text3
+                - valueToCopy: ''
+                - color: '#3c92dc'
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - value: Submit
+                - exportQuery: ''
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - id: button2
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
             position2:
               position2:
                 row: 10
-                col: 2
+                col: 3
                 height: 1
-                width: 3
-            createdAt: 2020-10-28T23:28:47.034Z
-            updatedAt: 2020-10-28T23:28:47.681Z
-      - text4:
-          pluginTemplate:
-            id: text4
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - horizontalAlign: left
-                - truncateOverflow: false
-                - verticalAlign: center
-                - scrollOverflow: false
-                - tooltipText: ''
-                - value: "**Hello** friend! \U0001F603\n\n"
-                - renderAsHtml: false
-                - backgroundColor: '#0000'
-                - textColor: '#312929'
-                - renderAsMarkdown: true
-                - id: text4
-            position2:
-              position2:
-                row: 11
-                height: 1
-                width: 3
-            createdAt: 2020-10-28T23:28:49.806Z
-            updatedAt: 2020-10-28T23:28:50.408Z
-      - text5:
-          pluginTemplate:
-            id: text5
-            type: widget
-            subtype: TextWidget
-            template:
-              ordered:
-                - horizontalAlign: left
-                - truncateOverflow: false
-                - verticalAlign: center
-                - scrollOverflow: false
-                - tooltipText: ''
-                - value: "**Hello** friend! \U0001F603\n\n"
-                - renderAsHtml: false
-                - backgroundColor: '#0000'
-                - textColor: '#312929'
-                - renderAsMarkdown: true
-                - id: text5
-            position2:
-              position2:
-                row: 12
-                col: 2
-                height: 1
-                width: 3
-            createdAt: 2020-10-28T23:28:52.599Z
-            updatedAt: 2020-10-28T23:28:53.209Z
+                width: 2
+            createdAt: 2020-10-28T23:30:21.039Z
+            updatedAt: 2020-10-28T23:30:21.680Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
