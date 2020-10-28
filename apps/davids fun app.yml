@@ -433,8 +433,8 @@ appTemplate:
                 - id: text2
             position2:
               position2:
-                row: 10
-                col: 2
+                row: 11
+                col: 5
                 height: 1
                 width: 3
             createdAt: 2020-10-28T23:24:27.653Z
