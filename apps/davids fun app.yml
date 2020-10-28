@@ -407,7 +407,7 @@ appTemplate:
                 - required: false
             position2:
               position2:
-                row: 10
+                row: 12
                 col: 5
                 height: 1
                 width: 4
@@ -420,6 +420,6 @@ appTemplate:
   isFetching: false
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.64.31
+  version: 2.64.32
   responsiveLayoutDisabled: false
   createdAt: null
