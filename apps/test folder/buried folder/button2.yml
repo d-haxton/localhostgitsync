@@ -1,4 +1,4 @@
-id: button1
+id: button2
 type: widget
 subtype: ButtonWidget
 template:
@@ -16,15 +16,15 @@ template:
     - action: ''
     - internalUrlQuery: ''
     - internalUrlPath: ''
-    - id: button1
+    - id: button2
     - exportFileName: ''
     - loading: ''
     - disabled: ''
 position2:
   position2:
     row: 2
-    col: 8
+    col: 5
     height: 1
     width: 2
-createdAt: 2020-10-29T10:46:55.899Z
-updatedAt: 2020-10-29T10:46:56.503Z
+createdAt: 2020-10-29T22:23:52.649Z
+updatedAt: 2020-10-29T22:23:56.016Z
