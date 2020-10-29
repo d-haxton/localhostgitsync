@@ -1,0 +1,13 @@
+version: 43.0.9
+pageUuid: 80658c92-1896-11eb-a0d0-7b1e60cb0a35
+appTemplate:
+  urlFragmentDefinitions: []
+  pageLoadValueOverrides: []
+  customDocumentTitle: ''
+  isGlobalWidget: false
+  isFetching: false
+  instrumentationEnabled: false
+  customDocumentTitleEnabled: false
+  version: 2.64.32
+  responsiveLayoutDisabled: false
+  createdAt: null
