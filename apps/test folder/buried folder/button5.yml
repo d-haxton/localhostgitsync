@@ -1,0 +1,30 @@
+id: button5
+type: widget
+subtype: ButtonWidget
+template:
+  ordered:
+    - valueToCopy: ''
+    - color: '#3c92dc'
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - value: Submit
+    - exportQuery: ''
+    - action: ''
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - id: button5
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+position2:
+  position2:
+    row: 13
+    col: 3
+    height: 1
+    width: 2
+createdAt: 2020-10-29T03:15:19.612Z
+updatedAt: 2020-10-29T03:15:20.276Z
