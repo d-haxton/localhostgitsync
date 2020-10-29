@@ -1,30 +1,31 @@
-id: button5
+id: image1
 type: widget
-subtype: ButtonWidget
+subtype: ImageWidget
 template:
   ordered:
     - valueToCopy: ''
-    - color: '#3c92dc'
+    - isFile: false
     - internalUrlHashParams: ''
     - exportFileType: csv
     - buttonType: action
     - exportTemplate: null
     - url: ''
     - newWindow: false
-    - value: Submit
     - exportQuery: ''
+    - imageUrl: 'https://placekitten.com/g/200/300'
     - action: ''
     - internalUrlQuery: ''
     - internalUrlPath: ''
-    - id: button5
+    - imageFile: ''
+    - id: image1
     - exportFileName: ''
     - loading: ''
     - disabled: ''
 position2:
   position2:
-    row: 13
-    col: 3
-    height: 1
+    row: 1
+    col: 4
+    height: 3
     width: 2
-createdAt: 2020-10-29T03:15:19.612Z
-updatedAt: 2020-10-29T03:15:20.276Z
+createdAt: 2020-10-29T10:37:08.655Z
+updatedAt: 2020-10-29T10:37:08.655Z

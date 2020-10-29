@@ -104,15 +104,13 @@ template:
     - dynamicColumnSettings: null
     - totalRowCount: ''
     - recordUpdates:
-        ordered:
-          - array: []
+        array: []
     - newRow: null
     - columnEditable:
         ordered: []
     - id: table1
     - filters:
-        ordered:
-          - array: []
+        array: []
     - displayedDataIndices: null
     - disableSorting:
         ordered: []
@@ -143,9 +141,9 @@ template:
     - useCompactMode: false
 position2:
   position2:
-    row: 2
-    col: 2
+    row: 5
+    col: 4
     height: 8
     width: 8
-createdAt: 2020-10-23T19:53:48.843Z
-updatedAt: 2020-10-23T19:53:49.082Z
+createdAt: 2020-10-29T10:42:15.652Z
+updatedAt: 2020-10-29T10:42:15.927Z
