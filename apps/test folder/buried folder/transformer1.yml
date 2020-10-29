@@ -1,0 +1,13 @@
+id: transformer1
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: >-
+        // Tip: assign your external references to variables instead of chaining
+        off the curly brackets. 
+
+         return 5
+    - value: ''
+createdAt: 2020-10-27T21:34:37.025Z
+updatedAt: 2020-10-27T21:34:37.025Z
