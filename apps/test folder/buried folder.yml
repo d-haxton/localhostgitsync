@@ -493,6 +493,38 @@ appTemplate:
                 width: 4
             createdAt: 2020-10-27T21:39:16.049Z
             updatedAt: 2020-10-27T21:39:16.049Z
+      - button5:
+          pluginTemplate:
+            id: button5
+            type: widget
+            subtype: ButtonWidget
+            template:
+              ordered:
+                - valueToCopy: ''
+                - color: '#3c92dc'
+                - internalUrlHashParams: ''
+                - exportFileType: csv
+                - buttonType: action
+                - exportTemplate: null
+                - url: ''
+                - newWindow: false
+                - value: Submit
+                - exportQuery: ''
+                - action: ''
+                - internalUrlQuery: ''
+                - internalUrlPath: ''
+                - id: button5
+                - exportFileName: ''
+                - loading: ''
+                - disabled: ''
+            position2:
+              position2:
+                row: 12
+                col: 4
+                height: 1
+                width: 2
+            createdAt: 2020-10-29T03:06:04.403Z
+            updatedAt: 2020-10-29T03:06:05.077Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
@@ -500,6 +532,6 @@ appTemplate:
   isFetching: false
   instrumentationEnabled: false
   customDocumentTitleEnabled: false
-  version: 2.64.31
+  version: 2.64.32
   responsiveLayoutDisabled: false
   createdAt: null
