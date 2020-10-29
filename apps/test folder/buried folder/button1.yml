@@ -22,7 +22,7 @@ template:
     - disabled: ''
 position2:
   position2:
-    row: 4
+    row: 2
     col: 8
     height: 1
     width: 2
