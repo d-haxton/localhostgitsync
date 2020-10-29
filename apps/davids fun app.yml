@@ -317,7 +317,7 @@ appTemplate:
                 - disabled: ''
             position2:
               position2:
-                row: 10
+                row: 9
                 col: 3
                 height: 1
                 width: 2
@@ -439,70 +439,6 @@ appTemplate:
                 width: 3
             createdAt: 2020-10-29T01:43:06.509Z
             updatedAt: 2020-10-29T01:43:07.141Z
-      - button2:
-          pluginTemplate:
-            id: button2
-            type: widget
-            subtype: ButtonWidget
-            template:
-              ordered:
-                - valueToCopy: ''
-                - color: '#3c92dc'
-                - internalUrlHashParams: ''
-                - exportFileType: csv
-                - buttonType: action
-                - exportTemplate: null
-                - url: ''
-                - newWindow: false
-                - value: Submit
-                - exportQuery: ''
-                - action: ''
-                - internalUrlQuery: ''
-                - internalUrlPath: ''
-                - id: button2
-                - exportFileName: ''
-                - loading: ''
-                - disabled: ''
-            position2:
-              position2:
-                row: 11
-                col: 3
-                height: 1
-                width: 2
-            createdAt: 2020-10-29T01:44:44.855Z
-            updatedAt: 2020-10-29T01:44:45.581Z
-      - button3:
-          pluginTemplate:
-            id: button3
-            type: widget
-            subtype: ButtonWidget
-            template:
-              ordered:
-                - valueToCopy: ''
-                - color: '#3c92dc'
-                - internalUrlHashParams: ''
-                - exportFileType: csv
-                - buttonType: action
-                - exportTemplate: null
-                - url: ''
-                - newWindow: false
-                - value: Submit
-                - exportQuery: ''
-                - action: ''
-                - internalUrlQuery: ''
-                - internalUrlPath: ''
-                - id: button3
-                - exportFileName: ''
-                - loading: ''
-                - disabled: ''
-            position2:
-              position2:
-                row: 12
-                col: 3
-                height: 1
-                width: 2
-            createdAt: 2020-10-29T01:45:33.149Z
-            updatedAt: 2020-10-29T01:45:33.841Z
   urlFragmentDefinitions: []
   pageLoadValueOverrides: []
   customDocumentTitle: ''
