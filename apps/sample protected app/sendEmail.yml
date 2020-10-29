@@ -1,0 +1,69 @@
+id: sendEmail
+type: datasource
+subtype: RESTQuery
+resourceName: onboarding_api
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - body: >-
+        [{"key":"to","value":"{{
+        companiesTable.selectedRow.data.email}}"},{"key":"bcc","value":"{{bccInput.value}}"},{"key":"snippet","value":"{{personalizedInput.value}}"},{"key":"company_name","value":"{{
+        companiesTable.selectedRow.data.name }}"}]
+    - queryDisabledMessage: Please enter in a personalized snippet!
+    - successMessage: ''
+    - queryDisabled: '{{ !personalizedInput.value}}'
+    - playgroundQuerySaveId: 0
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - paginationPaginationField: ''
+    - headers: ''
+    - paginationEnabled: false
+    - query: emails/new
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: 0
+    - privateParams: []
+    - triggersOnSuccess: []
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - showSuccessConfetti: false
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - cookies: ''
+    - metadata: null
+    - triggersOnFailure: []
+    - errorTransformer: |-
+        // type your code here
+        // example: return data.find(element => element.isError)
+        return data.error
+    - confirmationMessage: null
+    - isFetching: false
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - runWhenPageLoads: false
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - queryTimeout: '10000'
+    - requireConfirmation: false
+    - type: POST
+    - enableCaching: false
+    - bodyType: json
+    - queryThrottleTime: '750'
+    - notificationDuration: ''
+createdAt: 2018-09-19T05:51:17.389Z
+updatedAt: 2018-09-20T08:10:29.929Z
