@@ -1,0 +1,30 @@
+id: button4
+type: widget
+subtype: ButtonWidget
+template:
+  ordered:
+    - valueToCopy: ''
+    - color: '#3c92dc'
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - value: Submit
+    - exportQuery: ''
+    - action: ''
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - id: button4
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+position2:
+  position2:
+    row: 4
+    col: 10
+    height: 1
+    width: 2
+createdAt: 2020-10-30T05:02:22.425Z
+updatedAt: 2020-10-30T05:02:23.061Z
