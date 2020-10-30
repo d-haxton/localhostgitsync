@@ -1,4 +1,4 @@
-id: table1
+id: table2
 type: widget
 subtype: TableWidget
 template:
@@ -104,15 +104,13 @@ template:
     - dynamicColumnSettings: null
     - totalRowCount: ''
     - recordUpdates:
-        ordered:
-          - array: []
+        array: []
     - newRow: null
     - columnEditable:
         ordered: []
-    - id: table1
+    - id: table2
     - filters:
-        ordered:
-          - array: []
+        array: []
     - displayedDataIndices: null
     - disableSorting:
         ordered: []
@@ -143,9 +141,9 @@ template:
     - useCompactMode: false
 position2:
   position2:
-    row: 13
-    col: 2
+    row: 5
+    col: 3
     height: 8
     width: 8
-createdAt: 2020-10-29T10:42:15.652Z
-updatedAt: 2020-10-29T10:42:15.927Z
+createdAt: 2020-10-30T05:03:05.759Z
+updatedAt: 2020-10-30T05:03:06.182Z
