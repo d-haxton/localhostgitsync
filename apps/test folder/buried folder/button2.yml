@@ -23,7 +23,7 @@ template:
 position2:
   position2:
     row: 3
-    col: 8
+    col: 7
     height: 1
     width: 2
 createdAt: 2020-10-30T04:55:33.693Z
