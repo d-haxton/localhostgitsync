@@ -1,0 +1,24 @@
+id: text1
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: Hi Ellen!
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text1
+position2:
+  position2:
+    row: 1
+    col: 8
+    height: 1
+    width: 3
+createdAt: 2020-11-05T18:25:26.752Z
+updatedAt: 2020-11-05T18:25:32.392Z
