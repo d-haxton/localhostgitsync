@@ -1,0 +1,8 @@
+id: state1
+type: state
+subtype: State
+template:
+  ordered:
+    - value: null
+createdAt: 2020-11-04T05:30:07.921Z
+updatedAt: 2020-11-04T05:30:07.921Z
