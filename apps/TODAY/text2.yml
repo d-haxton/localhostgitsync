@@ -1,0 +1,24 @@
+id: text2
+type: widget
+subtype: TextWidget
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: Hello plaid friends!
+    - renderAsHtml: false
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text2
+position2:
+  position2:
+    row: 1
+    col: 5
+    height: 1
+    width: 3
+createdAt: 2020-11-09T21:22:07.061Z
+updatedAt: 2020-11-09T21:22:18.280Z
